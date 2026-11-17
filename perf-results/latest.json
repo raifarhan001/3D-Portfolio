@@ -1,0 +1,1871 @@
+{
+  "generatedAt": "2026-11-12T19:41:24.263Z",
+  "gpuRenderer": "ANGLE (Intel, Intel(R) HD Graphics 5500 (0x00001616) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": "1920x1080",
+  "profiles": {
+    "normalNight": {
+      "profile": "normal-night",
+      "theme": "night",
+      "experiment": null,
+      "summary": {
+        "avgFps": 33.8,
+        "minFps": 13.4,
+        "avgLow1Fps": 16.54,
+        "minLow1Fps": 3.6,
+        "worstFrameMs": 275,
+        "avgCpuMs": 25.77,
+        "avgGpuMs": 16.3,
+        "maxDrawCalls": 133,
+        "avgDrawCalls": 68.4,
+        "maxTriangles": 111287,
+        "maxPrograms": 68,
+        "maxTextures": 64,
+        "maxGpuTexMemMB": 114.9,
+        "maxGeometries": 136,
+        "totalLongTasksOver50": 41,
+        "totalLongTasksOver100": 9,
+        "heapStartMB": 33.41,
+        "heapEndMB": 48.79,
+        "heapGrowthPct": 46.03,
+        "maxPixelDiffPct": null,
+        "avgPixelDiffPct": null,
+        "rankedSystems": [
+          {
+            "name": "RgbPerimeterLights",
+            "avgMs": 1.222,
+            "maxMs": 13.8
+          },
+          {
+            "name": "WallDecor",
+            "avgMs": 0.718,
+            "maxMs": 31.2
+          },
+          {
+            "name": "Cull:CertificatesShelf",
+            "avgMs": 0.585,
+            "maxMs": 7.8
+          },
+          {
+            "name": "Cull:DecorLamp",
+            "avgMs": 0.58,
+            "maxMs": 6.4
+          },
+          {
+            "name": "MiniFridgeLOD",
+            "avgMs": 0.507,
+            "maxMs": 18.1
+          },
+          {
+            "name": "Cull:HighScoreBoard",
+            "avgMs": 0.379,
+            "maxMs": 8.2
+          },
+          {
+            "name": "RobotCompanion",
+            "avgMs": 0.253,
+            "maxMs": 11.3
+          },
+          {
+            "name": "Cull:DecorPlants",
+            "avgMs": 0.219,
+            "maxMs": 4.5
+          }
+        ]
+      },
+      "stops": [
+        {
+          "id": "01-tv-wall",
+          "label": "TV Wall + Fridge",
+          "fps": 31,
+          "low1Fps": 13.3,
+          "worstFrameMs": 75.1,
+          "cpuMs": 25.07,
+          "gpuMs": 15.42,
+          "gpuAvailable": true,
+          "drawCalls": 50,
+          "triangles": 23559,
+          "programs": 63,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 104,
+          "longTasksOver50": 5,
+          "longTasksOver100": 0,
+          "heapUsedMB": 33.41,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:DecorLamp",
+              "avgMs": 1.118,
+              "maxMs": 6.4,
+              "calls": 59
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.255,
+              "maxMs": 32,
+              "calls": 59
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.159,
+              "maxMs": 5.8,
+              "calls": 59
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.131,
+              "maxMs": 1.6,
+              "calls": 59
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.087,
+              "maxMs": 1.5,
+              "calls": 59
+            },
+            {
+              "name": "Cull:EntranceDoormat",
+              "avgMs": 0.064,
+              "maxMs": 20.1,
+              "calls": 59
+            },
+            {
+              "name": "RgbPerimeterLights",
+              "avgMs": 0.041,
+              "maxMs": 2.1,
+              "calls": 59
+            },
+            {
+              "name": "SofaLOD",
+              "avgMs": 0.04,
+              "maxMs": 0.1,
+              "calls": 59
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "02-sofa-lounge",
+          "label": "Sofa + Coffee Table",
+          "fps": 43,
+          "low1Fps": 20.2,
+          "worstFrameMs": 49.4,
+          "cpuMs": 13.94,
+          "gpuMs": 19.22,
+          "gpuAvailable": true,
+          "drawCalls": 96,
+          "triangles": 101025,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 126,
+          "longTasksOver50": 1,
+          "longTasksOver100": 1,
+          "heapUsedMB": 33.38,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.165,
+              "maxMs": 11.3,
+              "calls": 68
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.1,
+              "maxMs": 0.3,
+              "calls": 68
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.094,
+              "maxMs": 2.5,
+              "calls": 68
+            },
+            {
+              "name": "Cull:LoungeSnacks",
+              "avgMs": 0.092,
+              "maxMs": 0.1,
+              "calls": 68
+            },
+            {
+              "name": "PropCull:LampShade",
+              "avgMs": 0.091,
+              "maxMs": 5,
+              "calls": 68
+            },
+            {
+              "name": "Cull:EntranceDoormat",
+              "avgMs": 0.078,
+              "maxMs": 0.1,
+              "calls": 68
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.065,
+              "maxMs": 1,
+              "calls": 68
+            },
+            {
+              "name": "Cull:GamingPosters",
+              "avgMs": 0.043,
+              "maxMs": 0.1,
+              "calls": 68
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "03-gym",
+          "label": "Gym Corner",
+          "fps": 48,
+          "low1Fps": 39.5,
+          "worstFrameMs": 25.3,
+          "cpuMs": 5.86,
+          "gpuMs": 12.32,
+          "gpuAvailable": true,
+          "drawCalls": 48,
+          "triangles": 15991,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 126,
+          "longTasksOver50": 0,
+          "longTasksOver100": 0,
+          "heapUsedMB": 37.23,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.154,
+              "maxMs": 1.1,
+              "calls": 73
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.11,
+              "maxMs": 1.6,
+              "calls": 73
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.087,
+              "maxMs": 0.6,
+              "calls": 73
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.061,
+              "maxMs": 0.8,
+              "calls": 73
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.047,
+              "maxMs": 2,
+              "calls": 73
+            },
+            {
+              "name": "Cull:GramophoneCorner",
+              "avgMs": 0.045,
+              "maxMs": 0.1,
+              "calls": 73
+            },
+            {
+              "name": "GramophoneCorner",
+              "avgMs": 0.034,
+              "maxMs": 0.7,
+              "calls": 73
+            },
+            {
+              "name": "Cull:DecorPlants",
+              "avgMs": 0.034,
+              "maxMs": 0.7,
+              "calls": 73
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "04-gramophone",
+          "label": "Gramophone Corner",
+          "fps": 47.9,
+          "low1Fps": 38.5,
+          "worstFrameMs": 26,
+          "cpuMs": 5.91,
+          "gpuMs": 12.86,
+          "gpuAvailable": true,
+          "drawCalls": 47,
+          "triangles": 51297,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 128,
+          "longTasksOver50": 0,
+          "longTasksOver100": 0,
+          "heapUsedMB": 39.94,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "GymCorner",
+              "avgMs": 0.49,
+              "maxMs": 4.1,
+              "calls": 74
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.157,
+              "maxMs": 0.6,
+              "calls": 74
+            },
+            {
+              "name": "Cull:GamingPosters",
+              "avgMs": 0.056,
+              "maxMs": 0.1,
+              "calls": 74
+            },
+            {
+              "name": "TVInteraction",
+              "avgMs": 0.049,
+              "maxMs": 0.6,
+              "calls": 74
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.048,
+              "maxMs": 0.2,
+              "calls": 74
+            },
+            {
+              "name": "Cull:MediaWall",
+              "avgMs": 0.038,
+              "maxMs": 0.8,
+              "calls": 74
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.034,
+              "maxMs": 0.2,
+              "calls": 74
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.032,
+              "maxMs": 1.2,
+              "calls": 74
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "05-arcade-shelf",
+          "label": "Arcade + Game Shelf",
+          "fps": 34.1,
+          "low1Fps": 10.5,
+          "worstFrameMs": 94.8,
+          "cpuMs": 27.88,
+          "gpuMs": 12.62,
+          "gpuAvailable": true,
+          "drawCalls": 65,
+          "triangles": 34499,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 128,
+          "longTasksOver50": 5,
+          "longTasksOver100": 0,
+          "heapUsedMB": 47.02,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "WallDecor",
+              "avgMs": 0.608,
+              "maxMs": 31.2,
+              "calls": 89
+            },
+            {
+              "name": "Cull:HighScoreBoard",
+              "avgMs": 0.379,
+              "maxMs": 8.2,
+              "calls": 89
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.27,
+              "maxMs": 1.9,
+              "calls": 89
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.088,
+              "maxMs": 1.5,
+              "calls": 89
+            },
+            {
+              "name": "Cull:MediaWall",
+              "avgMs": 0.062,
+              "maxMs": 1,
+              "calls": 89
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.054,
+              "maxMs": 0.4,
+              "calls": 89
+            },
+            {
+              "name": "Cull:DecorLamp",
+              "avgMs": 0.042,
+              "maxMs": 5.6,
+              "calls": 89
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.042,
+              "maxMs": 1,
+              "calls": 89
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "06-gaming-corner",
+          "label": "Gaming Corner + PC",
+          "fps": 29.8,
+          "low1Fps": 11.8,
+          "worstFrameMs": 85,
+          "cpuMs": 25.3,
+          "gpuMs": 12.92,
+          "gpuAvailable": true,
+          "drawCalls": 66,
+          "triangles": 36035,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 128,
+          "longTasksOver50": 5,
+          "longTasksOver100": 0,
+          "heapUsedMB": 38.84,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.543,
+              "maxMs": 3.9,
+              "calls": 46
+            },
+            {
+              "name": "Cull:LoungeSnacks",
+              "avgMs": 0.169,
+              "maxMs": 0.2,
+              "calls": 46
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.116,
+              "maxMs": 1.9,
+              "calls": 46
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.077,
+              "maxMs": 1,
+              "calls": 46
+            },
+            {
+              "name": "GramophoneCorner",
+              "avgMs": 0.061,
+              "maxMs": 0.6,
+              "calls": 46
+            },
+            {
+              "name": "DeskPhone",
+              "avgMs": 0.056,
+              "maxMs": 0.4,
+              "calls": 46
+            },
+            {
+              "name": "Cull:GameCollectionShelf",
+              "avgMs": 0.056,
+              "maxMs": 1.2,
+              "calls": 46
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.051,
+              "maxMs": 0.6,
+              "calls": 46
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "07-north-wall-certs",
+          "label": "Windows + Certs Shelf",
+          "fps": 35.6,
+          "low1Fps": 13.2,
+          "worstFrameMs": 75.9,
+          "cpuMs": 15.94,
+          "gpuMs": 12.38,
+          "gpuAvailable": true,
+          "drawCalls": 54,
+          "triangles": 64213,
+          "programs": 67,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 128,
+          "longTasksOver50": 2,
+          "longTasksOver100": 0,
+          "heapUsedMB": 41.45,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.228,
+              "maxMs": 3.6,
+              "calls": 55
+            },
+            {
+              "name": "Cull:DeskPhone",
+              "avgMs": 0.141,
+              "maxMs": 3.2,
+              "calls": 55
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.113,
+              "maxMs": 2.2,
+              "calls": 55
+            },
+            {
+              "name": "Player",
+              "avgMs": 0.087,
+              "maxMs": 1.4,
+              "calls": 55
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.084,
+              "maxMs": 4.9,
+              "calls": 55
+            },
+            {
+              "name": "DeskPhone",
+              "avgMs": 0.075,
+              "maxMs": 2.3,
+              "calls": 55
+            },
+            {
+              "name": "Cull:GamingCorner",
+              "avgMs": 0.051,
+              "maxMs": 2.2,
+              "calls": 55
+            },
+            {
+              "name": "Cull:GamingPosters",
+              "avgMs": 0.047,
+              "maxMs": 0.6,
+              "calls": 55
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "08-south-wall-decor",
+          "label": "South Wall + Switch",
+          "fps": 37.9,
+          "low1Fps": 9.3,
+          "worstFrameMs": 107,
+          "cpuMs": 8.31,
+          "gpuMs": 11.03,
+          "gpuAvailable": true,
+          "drawCalls": 49,
+          "triangles": 15147,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 131,
+          "longTasksOver50": 2,
+          "longTasksOver100": 1,
+          "heapUsedMB": 43.2,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:DecorGallery",
+              "avgMs": 0.204,
+              "maxMs": 13.1,
+              "calls": 58
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.152,
+              "maxMs": 0.6,
+              "calls": 58
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.115,
+              "maxMs": 0.5,
+              "calls": 58
+            },
+            {
+              "name": "Cull:DecorPlants",
+              "avgMs": 0.05,
+              "maxMs": 4.5,
+              "calls": 58
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.043,
+              "maxMs": 0.1,
+              "calls": 58
+            },
+            {
+              "name": "MiniFridgeLOD",
+              "avgMs": 0.04,
+              "maxMs": 0.7,
+              "calls": 58
+            },
+            {
+              "name": "Cull:GamingNeon",
+              "avgMs": 0.04,
+              "maxMs": 0.1,
+              "calls": 58
+            },
+            {
+              "name": "GramophoneCorner",
+              "avgMs": 0.038,
+              "maxMs": 0.2,
+              "calls": 58
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "09-ceiling-elsa",
+          "label": "Ceiling + ELSA",
+          "fps": 17.3,
+          "low1Fps": 3.6,
+          "worstFrameMs": 275,
+          "cpuMs": 61.47,
+          "gpuMs": 24.65,
+          "gpuAvailable": true,
+          "drawCalls": 76,
+          "triangles": 77227,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 131,
+          "longTasksOver50": 10,
+          "longTasksOver100": 3,
+          "heapUsedMB": 45.43,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "MiniFridgeLOD",
+              "avgMs": 0.974,
+              "maxMs": 18.1,
+              "calls": 28
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.619,
+              "maxMs": 4.9,
+              "calls": 28
+            },
+            {
+              "name": "Cull:CertificatesShelf",
+              "avgMs": 0.585,
+              "maxMs": 7.8,
+              "calls": 28
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.404,
+              "maxMs": 6.6,
+              "calls": 28
+            },
+            {
+              "name": "Cull:GamingCorner",
+              "avgMs": 0.184,
+              "maxMs": 0.2,
+              "calls": 28
+            },
+            {
+              "name": "WallDecorPlantsLOD",
+              "avgMs": 0.132,
+              "maxMs": 0.5,
+              "calls": 28
+            },
+            {
+              "name": "PropCull:LampShade",
+              "avgMs": 0.107,
+              "maxMs": 1.9,
+              "calls": 28
+            },
+            {
+              "name": "SofaLOD",
+              "avgMs": 0.105,
+              "maxMs": 0.7,
+              "calls": 28
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "10-diagonal-overview",
+          "label": "Full Room Diagonal",
+          "fps": 13.4,
+          "low1Fps": 5.5,
+          "worstFrameMs": 180.9,
+          "cpuMs": 68.01,
+          "gpuMs": 29.61,
+          "gpuAvailable": true,
+          "drawCalls": 133,
+          "triangles": 111287,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 11,
+          "longTasksOver100": 4,
+          "heapUsedMB": 48.79,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RgbPerimeterLights",
+              "avgMs": 2.403,
+              "maxMs": 13.8,
+              "calls": 22
+            },
+            {
+              "name": "WallDecor",
+              "avgMs": 0.829,
+              "maxMs": 1.9,
+              "calls": 22
+            },
+            {
+              "name": "Cull:DecorPlants",
+              "avgMs": 0.573,
+              "maxMs": 2,
+              "calls": 22
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.296,
+              "maxMs": 2.6,
+              "calls": 22
+            },
+            {
+              "name": "Cull:MediaWall",
+              "avgMs": 0.224,
+              "maxMs": 7.6,
+              "calls": 22
+            },
+            {
+              "name": "Cull:EntranceDoormat",
+              "avgMs": 0.142,
+              "maxMs": 0.4,
+              "calls": 22
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.12,
+              "maxMs": 0.5,
+              "calls": 22
+            },
+            {
+              "name": "Cull:DeskPhone",
+              "avgMs": 0.085,
+              "maxMs": 0.1,
+              "calls": 22
+            }
+          ],
+          "pixelDiffPct": null
+        }
+      ]
+    },
+    "normalDay": {
+      "profile": "normal-day",
+      "theme": "day",
+      "experiment": null,
+      "summary": {
+        "avgFps": 27.56,
+        "minFps": 12.3,
+        "avgLow1Fps": 8.53,
+        "minLow1Fps": 5.6,
+        "worstFrameMs": 180.1,
+        "avgCpuMs": 30.11,
+        "avgGpuMs": 15.99,
+        "maxDrawCalls": 133,
+        "avgDrawCalls": 68.2,
+        "maxTriangles": 111287,
+        "maxPrograms": 68,
+        "maxTextures": 64,
+        "maxGpuTexMemMB": 114.9,
+        "maxGeometries": 136,
+        "totalLongTasksOver50": 57,
+        "totalLongTasksOver100": 14,
+        "heapStartMB": 36.35,
+        "heapEndMB": 34.25,
+        "heapGrowthPct": -5.78,
+        "maxPixelDiffPct": null,
+        "avgPixelDiffPct": null,
+        "rankedSystems": [
+          {
+            "name": "Cull:LoungeSnacks",
+            "avgMs": 22.148,
+            "maxMs": 55.4
+          },
+          {
+            "name": "Cull:GamingPosters",
+            "avgMs": 4.597,
+            "maxMs": 20.6
+          },
+          {
+            "name": "Cull:GramophoneCorner",
+            "avgMs": 0.851,
+            "maxMs": 10.4
+          },
+          {
+            "name": "GymCorner",
+            "avgMs": 0.649,
+            "maxMs": 62.4
+          },
+          {
+            "name": "RobotCompanion",
+            "avgMs": 0.503,
+            "maxMs": 24.7
+          },
+          {
+            "name": "Cull:GameCollectionShelf",
+            "avgMs": 0.489,
+            "maxMs": 43.9
+          },
+          {
+            "name": "Cull:GamingNeon",
+            "avgMs": 0.461,
+            "maxMs": 0.7
+          },
+          {
+            "name": "Cull:ControllerWallDisplay",
+            "avgMs": 0.397,
+            "maxMs": 8.3
+          }
+        ]
+      },
+      "stops": [
+        {
+          "id": "01-tv-wall",
+          "label": "TV Wall + Fridge",
+          "fps": 36,
+          "low1Fps": 6.8,
+          "worstFrameMs": 146.2,
+          "cpuMs": 18.57,
+          "gpuMs": 12.59,
+          "gpuAvailable": true,
+          "drawCalls": 50,
+          "triangles": 23559,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 3,
+          "longTasksOver100": 1,
+          "heapUsedMB": 36.35,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 1.278,
+              "maxMs": 14.3,
+              "calls": 55
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.179,
+              "maxMs": 1,
+              "calls": 55
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.123,
+              "maxMs": 6.5,
+              "calls": 55
+            },
+            {
+              "name": "Cull:SofaLounge",
+              "avgMs": 0.104,
+              "maxMs": 1.2,
+              "calls": 55
+            },
+            {
+              "name": "TVInteraction",
+              "avgMs": 0.1,
+              "maxMs": 6.4,
+              "calls": 55
+            },
+            {
+              "name": "Cull:DecorWest",
+              "avgMs": 0.072,
+              "maxMs": 0.1,
+              "calls": 55
+            },
+            {
+              "name": "WallDecorPlantsLOD",
+              "avgMs": 0.065,
+              "maxMs": 1.6,
+              "calls": 55
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.05,
+              "maxMs": 0.3,
+              "calls": 55
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "02-sofa-lounge",
+          "label": "Sofa + Coffee Table",
+          "fps": 34.1,
+          "low1Fps": 17.4,
+          "worstFrameMs": 57.4,
+          "cpuMs": 22.71,
+          "gpuMs": 17.16,
+          "gpuAvailable": true,
+          "drawCalls": 96,
+          "triangles": 101025,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 0,
+          "longTasksOver100": 0,
+          "heapUsedMB": 41.06,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.221,
+              "maxMs": 5.5,
+              "calls": 52
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.198,
+              "maxMs": 6.6,
+              "calls": 52
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.121,
+              "maxMs": 7,
+              "calls": 52
+            },
+            {
+              "name": "WallDecor",
+              "avgMs": 0.072,
+              "maxMs": 0.1,
+              "calls": 52
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.061,
+              "maxMs": 0.3,
+              "calls": 52
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.055,
+              "maxMs": 5.3,
+              "calls": 52
+            },
+            {
+              "name": "GramophoneCorner",
+              "avgMs": 0.055,
+              "maxMs": 0.3,
+              "calls": 52
+            },
+            {
+              "name": "MiniFridgeLOD",
+              "avgMs": 0.046,
+              "maxMs": 0.4,
+              "calls": 52
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "03-gym",
+          "label": "Gym Corner",
+          "fps": 31,
+          "low1Fps": 7.3,
+          "worstFrameMs": 137.8,
+          "cpuMs": 20.82,
+          "gpuMs": 12.69,
+          "gpuAvailable": true,
+          "drawCalls": 48,
+          "triangles": 15991,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 5,
+          "longTasksOver100": 1,
+          "heapUsedMB": 43.32,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.849,
+              "maxMs": 44.4,
+              "calls": 48
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.343,
+              "maxMs": 10.2,
+              "calls": 48
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.182,
+              "maxMs": 2,
+              "calls": 48
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.154,
+              "maxMs": 2.7,
+              "calls": 48
+            },
+            {
+              "name": "Cull:SideTableCoffee",
+              "avgMs": 0.127,
+              "maxMs": 6.9,
+              "calls": 48
+            },
+            {
+              "name": "TVContent",
+              "avgMs": 0.092,
+              "maxMs": 0.1,
+              "calls": 48
+            },
+            {
+              "name": "WallDecorPlantsLOD",
+              "avgMs": 0.065,
+              "maxMs": 1.5,
+              "calls": 48
+            },
+            {
+              "name": "DeskPhone",
+              "avgMs": 0.056,
+              "maxMs": 0.4,
+              "calls": 48
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "04-gramophone",
+          "label": "Gramophone Corner",
+          "fps": 27.8,
+          "low1Fps": 9.1,
+          "worstFrameMs": 110.3,
+          "cpuMs": 25.76,
+          "gpuMs": 11.99,
+          "gpuAvailable": true,
+          "drawCalls": 45,
+          "triangles": 16261,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 5,
+          "longTasksOver100": 2,
+          "heapUsedMB": 44.48,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:SideTableCoffee",
+              "avgMs": 0.472,
+              "maxMs": 12.4,
+              "calls": 43
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.317,
+              "maxMs": 40.8,
+              "calls": 43
+            },
+            {
+              "name": "Cull:WindowCurtains",
+              "avgMs": 0.254,
+              "maxMs": 0.3,
+              "calls": 43
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.252,
+              "maxMs": 2.2,
+              "calls": 43
+            },
+            {
+              "name": "TVInteraction",
+              "avgMs": 0.077,
+              "maxMs": 2.3,
+              "calls": 43
+            },
+            {
+              "name": "RgbPerimeterLights",
+              "avgMs": 0.074,
+              "maxMs": 0.1,
+              "calls": 43
+            },
+            {
+              "name": "Cull:DecorWest",
+              "avgMs": 0.072,
+              "maxMs": 0.1,
+              "calls": 43
+            },
+            {
+              "name": "Cull:MediaWall",
+              "avgMs": 0.071,
+              "maxMs": 0.5,
+              "calls": 43
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "05-arcade-shelf",
+          "label": "Arcade + Game Shelf",
+          "fps": 27.4,
+          "low1Fps": 8.5,
+          "worstFrameMs": 117.7,
+          "cpuMs": 31.75,
+          "gpuMs": 15.97,
+          "gpuAvailable": true,
+          "drawCalls": 67,
+          "triangles": 69535,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 4,
+          "longTasksOver100": 1,
+          "heapUsedMB": 34.93,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "GymCorner",
+              "avgMs": 3.98,
+              "maxMs": 62.4,
+              "calls": 42
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.432,
+              "maxMs": 7.3,
+              "calls": 42
+            },
+            {
+              "name": "Cull:DecorGallery",
+              "avgMs": 0.238,
+              "maxMs": 11.2,
+              "calls": 42
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.093,
+              "maxMs": 1.3,
+              "calls": 42
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.08,
+              "maxMs": 1.7,
+              "calls": 42
+            },
+            {
+              "name": "GamingCorner",
+              "avgMs": 0.074,
+              "maxMs": 1,
+              "calls": 42
+            },
+            {
+              "name": "LightSwitch",
+              "avgMs": 0.069,
+              "maxMs": 0.6,
+              "calls": 42
+            },
+            {
+              "name": "Cull:HeroNameSign",
+              "avgMs": 0.067,
+              "maxMs": 0.3,
+              "calls": 42
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "06-gaming-corner",
+          "label": "Gaming Corner + PC",
+          "fps": 23,
+          "low1Fps": 5.6,
+          "worstFrameMs": 180.1,
+          "cpuMs": 37.62,
+          "gpuMs": 16.88,
+          "gpuAvailable": true,
+          "drawCalls": 68,
+          "triangles": 71071,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 8,
+          "longTasksOver100": 2,
+          "heapUsedMB": 35.72,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:ControllerWallDisplay",
+              "avgMs": 0.397,
+              "maxMs": 8.3,
+              "calls": 36
+            },
+            {
+              "name": "Cull:GameCollectionShelf",
+              "avgMs": 0.184,
+              "maxMs": 9.2,
+              "calls": 36
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.182,
+              "maxMs": 7,
+              "calls": 36
+            },
+            {
+              "name": "Cull:DecorLamp",
+              "avgMs": 0.1,
+              "maxMs": 0.1,
+              "calls": 36
+            },
+            {
+              "name": "Cull:ArcadeCabinet",
+              "avgMs": 0.098,
+              "maxMs": 3.8,
+              "calls": 36
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.095,
+              "maxMs": 0.7,
+              "calls": 36
+            },
+            {
+              "name": "DeskPhone",
+              "avgMs": 0.072,
+              "maxMs": 0.1,
+              "calls": 36
+            },
+            {
+              "name": "Cull:SideTableCoffee",
+              "avgMs": 0.057,
+              "maxMs": 0.2,
+              "calls": 36
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "07-north-wall-certs",
+          "label": "Windows + Certs Shelf",
+          "fps": 30.5,
+          "low1Fps": 7.6,
+          "worstFrameMs": 131.4,
+          "cpuMs": 25.1,
+          "gpuMs": 11.63,
+          "gpuAvailable": true,
+          "drawCalls": 52,
+          "triangles": 29177,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 3,
+          "longTasksOver100": 1,
+          "heapUsedMB": 34.26,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:LoungeSnacks",
+              "avgMs": 22.148,
+              "maxMs": 55.4,
+              "calls": 46
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.17,
+              "maxMs": 1.7,
+              "calls": 46
+            },
+            {
+              "name": "TVInteraction",
+              "avgMs": 0.126,
+              "maxMs": 9.5,
+              "calls": 46
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.092,
+              "maxMs": 0.5,
+              "calls": 46
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.073,
+              "maxMs": 0.1,
+              "calls": 46
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.058,
+              "maxMs": 0.2,
+              "calls": 46
+            },
+            {
+              "name": "TVContent",
+              "avgMs": 0.046,
+              "maxMs": 3,
+              "calls": 46
+            },
+            {
+              "name": "Cull:DecorPlants",
+              "avgMs": 0.043,
+              "maxMs": 0.1,
+              "calls": 46
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "08-south-wall-decor",
+          "label": "South Wall + Switch",
+          "fps": 27,
+          "low1Fps": 7.1,
+          "worstFrameMs": 141.3,
+          "cpuMs": 26.26,
+          "gpuMs": 14.16,
+          "gpuAvailable": true,
+          "drawCalls": 49,
+          "triangles": 15147,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 7,
+          "longTasksOver100": 1,
+          "heapUsedMB": 34.51,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "RobotCompanion",
+              "avgMs": 1.372,
+              "maxMs": 24.7,
+              "calls": 42
+            },
+            {
+              "name": "Cull:GameCollectionShelf",
+              "avgMs": 0.793,
+              "maxMs": 43.9,
+              "calls": 42
+            },
+            {
+              "name": "Cull:GamingNeon",
+              "avgMs": 0.461,
+              "maxMs": 0.7,
+              "calls": 42
+            },
+            {
+              "name": "Cull:HeroNameSign",
+              "avgMs": 0.27,
+              "maxMs": 3,
+              "calls": 42
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.106,
+              "maxMs": 1,
+              "calls": 42
+            },
+            {
+              "name": "Cull:SideTableCoffee",
+              "avgMs": 0.092,
+              "maxMs": 0.1,
+              "calls": 42
+            },
+            {
+              "name": "GamingWallDecor",
+              "avgMs": 0.072,
+              "maxMs": 0.1,
+              "calls": 42
+            },
+            {
+              "name": "DeskPhone",
+              "avgMs": 0.056,
+              "maxMs": 0.1,
+              "calls": 42
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "09-ceiling-elsa",
+          "label": "Ceiling + ELSA",
+          "fps": 26.5,
+          "low1Fps": 9.6,
+          "worstFrameMs": 103.7,
+          "cpuMs": 21.79,
+          "gpuMs": 13.67,
+          "gpuAvailable": true,
+          "drawCalls": 74,
+          "triangles": 42191,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 10,
+          "longTasksOver100": 0,
+          "heapUsedMB": 34.06,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:GramophoneCorner",
+              "avgMs": 0.851,
+              "maxMs": 10.4,
+              "calls": 41
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 0.134,
+              "maxMs": 3.3,
+              "calls": 41
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 0.101,
+              "maxMs": 0.5,
+              "calls": 41
+            },
+            {
+              "name": "MiniFridgeLOD",
+              "avgMs": 0.078,
+              "maxMs": 0.1,
+              "calls": 41
+            },
+            {
+              "name": "DynamicResolution",
+              "avgMs": 0.06,
+              "maxMs": 0.1,
+              "calls": 41
+            },
+            {
+              "name": "MediaWall",
+              "avgMs": 0.047,
+              "maxMs": 0.5,
+              "calls": 41
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.046,
+              "maxMs": 1.3,
+              "calls": 41
+            },
+            {
+              "name": "Cull:DecorPlants",
+              "avgMs": 0.045,
+              "maxMs": 0.2,
+              "calls": 41
+            }
+          ],
+          "pixelDiffPct": null
+        },
+        {
+          "id": "10-diagonal-overview",
+          "label": "Full Room Diagonal",
+          "fps": 12.3,
+          "low1Fps": 6.3,
+          "worstFrameMs": 159.9,
+          "cpuMs": 70.77,
+          "gpuMs": 33.17,
+          "gpuAvailable": true,
+          "drawCalls": 133,
+          "triangles": 111287,
+          "programs": 68,
+          "textures": 64,
+          "gpuTexMemMB": 114.9,
+          "geometries": 136,
+          "longTasksOver50": 12,
+          "longTasksOver100": 5,
+          "heapUsedMB": 34.25,
+          "dpr": 1,
+          "canvasSize": "1920x1080",
+          "topSystems": [
+            {
+              "name": "Cull:GamingPosters",
+              "avgMs": 4.597,
+              "maxMs": 20.6,
+              "calls": 19
+            },
+            {
+              "name": "GymCorner",
+              "avgMs": 1.281,
+              "maxMs": 20.8,
+              "calls": 19
+            },
+            {
+              "name": "RobotCompanion",
+              "avgMs": 1.108,
+              "maxMs": 11.7,
+              "calls": 19
+            },
+            {
+              "name": "Cull:EntranceDoormat",
+              "avgMs": 0.308,
+              "maxMs": 0.6,
+              "calls": 19
+            },
+            {
+              "name": "DynamicResolution",
+              "avgMs": 0.247,
+              "maxMs": 0.9,
+              "calls": 19
+            },
+            {
+              "name": "GramophoneCorner",
+              "avgMs": 0.122,
+              "maxMs": 0.5,
+              "calls": 19
+            },
+            {
+              "name": "ArcadeCabinet",
+              "avgMs": 0.109,
+              "maxMs": 1.9,
+              "calls": 19
+            },
+            {
+              "name": "TVInteraction",
+              "avgMs": 0.098,
+              "maxMs": 0.4,
+              "calls": 19
+            }
+          ],
+          "pixelDiffPct": null
+        }
+      ]
+    }
+  },
+  "diagnostics": null,
+  "sceneBreakdown": {
+    "uniqueMaterials": 105,
+    "materialTypes": {
+      "MeshLambertMaterial": 47,
+      "MeshBasicMaterial": 37,
+      "MeshStandardMaterial": 19,
+      "ShaderMaterial": 2
+    },
+    "totalGpuTexMemMB": 114.9,
+    "textureCount": 42,
+    "topTextures": [
+      {
+        "name": "mesh.map",
+        "w": 2048,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 10.64
+      },
+      {
+        "name": "mesh.map",
+        "w": 2048,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 10.64
+      },
+      {
+        "name": "mesh.map",
+        "w": 2048,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 10.64
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 5.32
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 5.32
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 5.32
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 5.32
+      },
+      {
+        "name": "mesh.map",
+        "w": 2048,
+        "h": 512,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 5.32
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 1,
+        "mb": 5.32
+      },
+      {
+        "name": "center-rug.map",
+        "w": 1024,
+        "h": 704,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 3.66
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 640,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 3.33
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 614,
+        "mipmaps": true,
+        "anisotropy": 1,
+        "mb": 3.19
+      },
+      {
+        "name": "mesh.map",
+        "w": 1024,
+        "h": 512,
+        "mipmaps": true,
+        "anisotropy": 1,
+        "mb": 2.66
+      },
+      {
+        "name": "certificates-shelf-books.map",
+        "w": 1024,
+        "h": 512,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 2.66
+      },
+      {
+        "name": "mesh.map",
+        "w": 512,
+        "h": 1024,
+        "mipmaps": true,
+        "anisotropy": 4,
+        "mb": 2.66
+      }
+    ],
+    "byZone": [
+      {
+        "zone": "gaming-corner",
+        "draws": 20,
+        "tris": 28358,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "wall-decor",
+        "draws": 17,
+        "tris": 3136,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "home-gym-corner",
+        "draws": 11,
+        "tris": 4806,
+        "hiddenDraws": 1
+      },
+      {
+        "zone": "gramophone-corner",
+        "draws": 8,
+        "tris": 2168,
+        "hiddenDraws": 5
+      },
+      {
+        "zone": "sofa-lounge-set",
+        "draws": 7,
+        "tris": 8468,
+        "hiddenDraws": 4
+      },
+      {
+        "zone": "media-wall-culled",
+        "draws": 7,
+        "tris": 8010,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "arcade-cabinet",
+        "draws": 7,
+        "tris": 1056,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "unnamed",
+        "draws": 6,
+        "tris": 206,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "gaming-wall-decor",
+        "draws": 6,
+        "tris": 184,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "certificates-shelf",
+        "draws": 5,
+        "tris": 4262,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "gaming-mini-fridge",
+        "draws": 5,
+        "tris": 1564,
+        "hiddenDraws": 4
+      },
+      {
+        "zone": "game-collection-shelf",
+        "draws": 4,
+        "tris": 3986,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "controller-wall-display",
+        "draws": 3,
+        "tris": 5592,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "lounge-snacks-and-beanbag",
+        "draws": 3,
+        "tris": 2110,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "hero-name-neon-sign",
+        "draws": 3,
+        "tris": 74,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "robot-elsa",
+        "draws": 2,
+        "tris": 35036,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "window-curtains",
+        "draws": 2,
+        "tris": 3864,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "desk-phone",
+        "draws": 2,
+        "tris": 1886,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "light-switch",
+        "draws": 2,
+        "tris": 612,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "rgb-perimeter-lighting",
+        "draws": 2,
+        "tris": 180,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "side-table-coffee",
+        "draws": 1,
+        "tris": 2654,
+        "hiddenDraws": 1
+      },
+      {
+        "zone": "center-rug",
+        "draws": 1,
+        "tris": 12,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "entrance-doormat",
+        "draws": 1,
+        "tris": 12,
+        "hiddenDraws": 0
+      },
+      {
+        "zone": "ceiling-light-panels",
+        "draws": 1,
+        "tris": 2,
+        "hiddenDraws": 0
+      }
+    ]
+  }
+}

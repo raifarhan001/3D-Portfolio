@@ -1,0 +1,49 @@
+{
+  "name": "room-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prefetch": "node scripts/fetch-github.mjs",
+    "predev": "npm run prefetch",
+    "dev": "next build && next start",
+    "prebuild": "npm run prefetch",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "poster": "node scripts/make-poster.mjs",
+    "perf": "node scripts/perf.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^3.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/postprocessing": "^3.2.2",
+    "@types/three": "^0.187.0",
+    "detect-gpu": "^5.0.70",
+    "next": "16.4.5",
+    "postprocessing": "^6.39.6",
+    "r3f-perf": "^7.2.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "lighthouse": "^12.8.2",
+    "pdfjs-dist": "^6.5.438",
+    "pixelmatch": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^25.17.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

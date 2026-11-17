@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: var(--font-instrument-serif), Georgia, "Times New Roman", serif;
+  --font-display: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #07080b;
+  color: #f2ede4;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Cinema title card GPU-composited motion (transforms & opacity only) */
+
+@keyframes welcomeVeilReveal {
+  0% {
+    opacity: 0.78;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes welcomeIntroDolly {
+  0% {
+    transform: scale(1.12) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes welcomeSceneDrift1 {
+  0% {
+    transform: scale(1.03) translate3d(0%, 0%, 0);
+  }
+  100% {
+    transform: scale(1.07) translate3d(-1.2%, -0.6%, 0);
+  }
+}
+
+@keyframes welcomeSceneDrift2 {
+  0% {
+    transform: scale(1.05) translate3d(-0.8%, 0.4%, 0);
+  }
+  100% {
+    transform: scale(1.02) translate3d(1.1%, -0.5%, 0);
+  }
+}
+
+@keyframes welcomeSceneDrift3 {
+  0% {
+    transform: scale(1.02) translate3d(0.8%, -0.4%, 0);
+  }
+  100% {
+    transform: scale(1.06) translate3d(-1%, 0.6%, 0);
+  }
+}
+
+@keyframes welcomeMaskReveal {
+  0% {
+    transform: translate3d(0, 108%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes welcomeRuleDraw {
+  0% {
+    transform: scaleX(0);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes welcomeFadeRise {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes welcomeFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes welcomeLightLeakDrift {
+  0% {
+    transform: translate3d(-6%, 4%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(8%, -6%, 0) scale(1.08);
+  }
+  100% {
+    transform: translate3d(-6%, 4%, 0) scale(1);
+  }
+}
+
+@keyframes welcomeReadyPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.72;
+  }
+  100% {
+    transform: scale(1.24);
+    opacity: 0;
+  }
+}
+
+.welcome-veil-reveal {
+  animation: welcomeVeilReveal 1s cubic-bezier(0.22, 1, 0.36, 1) 0.04s both;
+}
+
+.welcome-intro-dolly {
+  transform-origin: center center;
+  animation: welcomeIntroDolly 8s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 both;
+}
+
+.welcome-scene-drift-1 {
+  transform-origin: center center;
+  animation: welcomeSceneDrift1 14s ease-in-out infinite alternate;
+}
+
+.welcome-scene-drift-2 {
+  transform-origin: center center;
+  animation: welcomeSceneDrift2 14s ease-in-out infinite alternate;
+}
+
+.welcome-scene-drift-3 {
+  transform-origin: center center;
+  animation: welcomeSceneDrift3 14s ease-in-out infinite alternate;
+}
+
+.welcome-reveal-line-1 {
+  display: block;
+  animation: welcomeMaskReveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
+.welcome-reveal-line-2 {
+  display: block;
+  animation: welcomeMaskReveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+}
+
+.welcome-rule-draw {
+  transform-origin: left center;
+  animation: welcomeRuleDraw 0.7s cubic-bezier(0.22, 1, 0.36, 1) 1.05s both;
+}
+
+.welcome-tagline-in {
+  animation: welcomeFadeRise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 1.35s both;
+}
+
+.welcome-roles-in {
+  animation: welcomeFadeRise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 1.55s both;
+}
+
+.welcome-chrome-in {
+  animation: welcomeFadeIn 0.85s cubic-bezier(0.22, 1, 0.36, 1) 2.25s both;
+}
+
+.welcome-light-leak {
+  will-change: transform;
+  animation: welcomeLightLeakDrift 20s ease-in-out infinite;
+}
+
+.welcome-film-grain {
+  background-image: url("/welcome-grain.png");
+  background-repeat: repeat;
+  background-size: 96px 96px;
+}
+
+.welcome-ready-pulse-ring {
+  animation: welcomeReadyPulse 0.95s cubic-bezier(0.22, 1, 0.36, 1) 1 both;
+}
+
+/* Quick View High-End Craft Animations */
+@keyframes quickFadeUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes quickFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes quickShimmerSlow {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(250%) skewX(-20deg);
+  }
+}
+
+@keyframes quickOrbFloat {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(24px, -20px, 0) scale(1.08);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+.animate-quick-fade-up {
+  animation: quickFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-quick-fade-in {
+  animation: quickFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-quick-shimmer {
+  animation: quickShimmerSlow 4.5s ease-in-out infinite;
+}
+
+.animate-quick-orb-1 {
+  animation: quickOrbFloat 18s ease-in-out infinite alternate;
+}
+
+.animate-quick-orb-2 {
+  animation: quickOrbFloat 22s ease-in-out infinite alternate-reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .welcome-veil-reveal,
+  .welcome-intro-dolly,
+  .welcome-scene-drift-1,
+  .welcome-scene-drift-2,
+  .welcome-scene-drift-3,
+  .welcome-reveal-line-1,
+  .welcome-reveal-line-2,
+  .welcome-rule-draw,
+  .welcome-tagline-in,
+  .welcome-roles-in,
+  .welcome-chrome-in,
+  .welcome-light-leak,
+  .welcome-ready-pulse-ring,
+  .animate-quick-fade-up,
+  .animate-quick-fade-in,
+  .animate-quick-shimmer,
+  .animate-quick-orb-1,
+  .animate-quick-orb-2 {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
